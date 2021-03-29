@@ -36,17 +36,22 @@ int main()
         if(sum1==sum2)
         {
             printf("no\n");
-            sum1=0;
-            sum2=0;
             break;
         }
         else
         {
-            printf("yes\n");
             sum1=0;
             sum2=0;
-            break;
         }
+    }
+    if(sum1==0&&sum2==0)
+    {
+        printf("yes\n");
+    }
+    else
+    {
+        sum1=0;
+        sum2=0;
     }
     for(int i=0;i<n2;i++)
     {
@@ -58,17 +63,22 @@ int main()
         if(sum1==sum2)
         {
             printf("no\n");
-            sum1=0;
-            sum2=0;
             break;
         }
         else
         {
-            printf("yes\n");
             sum1=0;
             sum2=0;
-            break;
         }
+    }
+    if(sum1==0&&sum2==0)
+    {
+        printf("yes\n");
+    }
+    else
+    {
+        sum1=0;
+        sum2=0;
     }
     for(int i=0;i<n3;i++)
     {
@@ -80,17 +90,22 @@ int main()
         if(sum1==sum2)
         {
             printf("no\n");
-            sum1=0;
-            sum2=0;
             break;
         }
         else
         {
-            printf("yes\n");
             sum1=0;
             sum2=0;
-            break;
         }
+    }
+    if(sum1==0&&sum2==0)
+    {
+        printf("yes\n");
+    }
+    else
+    {
+        sum1=0;
+        sum2=0;
     }
     
     return 0;
