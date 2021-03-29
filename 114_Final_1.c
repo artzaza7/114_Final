@@ -1,9 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int n,c;
-    scanf("%d %d",&n,&c);
-    int save=n%10;
+    long long n,c;
+    scanf("%lld %lld",&n,&c);
+    long long k=n,save=k%10;
+    if(save==c)
+    {
+        k++;
+        save=k%10;
+    }
     while(1)
     {
         if(save==c)
@@ -12,10 +17,10 @@ int main()
         }
         else
         {
-            n++;
-            save=n%10;
+            k++;
+            save=k%10;
         }
     }
-    printf("%d",n);
+    printf("%lld",k);
     return 0;
 }
