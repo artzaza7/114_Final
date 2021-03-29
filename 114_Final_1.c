@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    long long n,c;
-    scanf("%lld %lld",&n,&c);
-    long long k=n,save=k%10;
+    int n,c;
+    scanf("%d %d",&n,&c);
+    int k=n,save=k%10;
     if(save==c)
     {
         k++;
@@ -21,6 +21,6 @@ int main()
             save=k%10;
         }
     }
-    printf("%lld",k);
+    printf("%d",k);
     return 0;
 }
