@@ -4,7 +4,7 @@ int main()
     int n,c;
     scanf("%d %d",&n,&c);
     int k=n+1,save=k%10;
-    int count=0;
+    int count=0,countc=0;
     int key=k;
     while(key>0)
     {
