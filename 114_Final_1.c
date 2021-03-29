@@ -13,9 +13,9 @@ int main()
     }
     int give=count;
     int temp=k;
-    while (count>0)
+    while (count>-1)
     {
-        if(count==1)
+        if(count==0)
         {
             k++;
             temp=k;
