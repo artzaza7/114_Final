@@ -57,7 +57,6 @@ int main()
         }
         else if(k<x)
         {
-            k--;
             for(int i=0;i<n1;i++)
             {
                 for(int j=0;j<n1;j++)
@@ -111,7 +110,6 @@ int main()
         }
         else if(k<z)
         {
-            k--;
             for(int i=0;i<n3;i++)
             {
                 for(int j=0;j<n3;j++)
@@ -165,7 +163,6 @@ int main()
         }
         else if(k<y)
         {
-            k--;
             for(int i=0;i<n2;i++)
             {
                 for(int j=0;j<n2;j++)
@@ -212,7 +209,7 @@ int main()
             count++;
         }
     }
-    if(count==a-1)
+    if(count==a)
     {
         printf("no\n");
         count=0;
@@ -229,7 +226,7 @@ int main()
             count++;
         }
     }
-    if(count==b-1)
+    if(count==b)
     {
         printf("no\n");
         count=0;
@@ -246,7 +243,7 @@ int main()
             count++;
         }
     }
-    if(count==c-1)
+    if(count==c)
     {
         printf("no\n");
         count=0;
